@@ -27,8 +27,8 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
-  --color-secondary: #161718;
+  --color-primary: #df8902;
+  --color-secondary: #101426;
 }
 
 /* Smooth scroll behavior */
@@ -174,7 +174,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: #101426;
   color: #fff;
 }
 
@@ -199,7 +199,7 @@ h6 {
 #preloader:before,
 #preloader:after {
   content: "";
-  background-color: var(--color-secondary);
+  background-color: #000;
   position: absolute;
   inset: 0;
   width: 50%;
@@ -348,7 +348,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: #fff;
+  color: #df8902;
 }
 
 @media (max-width: 575px) {
